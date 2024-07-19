@@ -45,6 +45,7 @@ void get_dns_query_domain(const unsigned char *buffer, int msg_len ,unsigned cha
         }
     }
     DNS_name[index] = '\0';
+    // this is a test for git
     printf("%s\n",DNS_name);
 }
 
